@@ -1,0 +1,70 @@
+.info__inner{
+    background: url('../../../assets/img/me-info.png') ;
+    background-repeat: no-repeat;
+    height: 788px;
+    position: relative;
+}
+
+.info__inner::after{
+    position: absolute;
+    content: url('../../../assets/img/comp_info.png');
+    width: 650px;
+    top: 81px;
+    left: 257px;
+}
+
+.info-box{
+    width: 445px;
+    height: 357px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    bottom: 188px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info__text{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.48px;
+    width: 420px;
+    height: 200px; 
+    color: #33323D; 
+}
+
+.info__btn{
+    width: 200px;
+    height: 48px;
+    background-color: #203A4C;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    transition: all ease .8s;
+    transform: translateY(36px);
+}
+.info__span{
+    display: flex;
+    width: 85%;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 22px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+}
+
+.info__btn:hover{
+   
+    background-color: white;
+    color: #203A4C;
+    box-shadow: 0px 0px 8px 4px rgba(160, 160, 160, 0.716);
+
+}

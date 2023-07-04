@@ -1,0 +1,75 @@
+.flyo{
+    margin-top: 80px;
+}
+
+.flyo__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flyo__item{
+    width: 550px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.flyo__inner{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateX(-65px);
+}
+
+.flyo__inner::after{
+    content: '';
+    width: 350px;
+    height: 1px;
+    background-color:#33323D;
+    transform: translateY(90px);
+    opacity: 0.15;
+}
+
+.flyo__title{
+    font-family: 'Ibarra Real Nova';
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.36;
+    font-weight: 700;
+    color: #33323D;
+    margin-bottom: 28px;
+}
+
+.flyo__text{
+    opacity: 0.8;
+    width: 350px;
+    height: 150px;
+    color: #33323D;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+
+.flyo__btn{
+    margin-top: 24px;
+    padding: 17px 35px; 
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color: #33323D;
+    border-color: #33323D;
+    background-color: transparent;
+}
+
+.flyo__item:nth-child(2){
+    background-color: #41B4D3;
+    background-image: url('../../../assets/img/project-img/flyo-img.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top 50px center;
+}

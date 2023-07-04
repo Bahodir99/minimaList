@@ -1,0 +1,101 @@
+
+
+.bookmark__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bookmark__item{
+    width: 540px;
+    height: 500px;
+}
+
+.bookmark__item:nth-child(1){
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.bookmark__item:nth-child(1)::before{
+    position: absolute;
+    content: '';
+    width: 350px;
+    height: 1px;
+    background-color: #33323D;
+    opacity: 0.15;
+    bottom: 0;
+    left: 42px;
+}
+
+
+.bookmark__item:nth-child(2)::after{
+    position: absolute;
+    content: '';
+    width: 350px;
+    height: 1px;
+    background-color: #33323D;
+    opacity: 0.15;
+    bottom: -80px;
+    left: 90px;
+}
+
+
+
+.bookmark__item:nth-child(2){
+    position: relative;
+    background-color: #4F63D8;
+    max-width: 540px;
+    max-height: 500px;
+    background-image: url(../../../assets/img/project-img/bookmark-img.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: left 50px top 49px;
+}
+
+.bookmark__inner{
+    margin-left: 65px;
+}
+
+
+
+.bookmark__title{
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.36px;
+    color: #33323D;
+    font-weight: 700;
+    font-family: 'Ibarra Real Nova';
+    margin-bottom: 28px;
+}
+
+.bookmark__text{
+    width: 350px;
+    height: 150px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    margin-bottom: 24px;
+}
+
+.bookmark__btn{
+    padding: 17px 35px;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color: #33323D;
+    border-color: #33323D;
+    text-transform: uppercase;
+    transition: all ease .8s;
+
+}
+.bookmark__btn:hover{
+    border-color: #33323D;
+    background-color: #33323D;
+    color: white;
+    box-shadow: 0px 0px 8px 4px rgba(160, 160, 160, 0.716);
+}

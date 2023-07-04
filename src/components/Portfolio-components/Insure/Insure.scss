@@ -1,0 +1,96 @@
+.insure{
+    margin-top: 80px;
+}
+.insure__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.insure__item{
+    width: 540px;
+    height: 500px;
+
+}
+
+.insure__item:nth-child(1){
+    background-color: #9A99AB;
+    background-image: url('../../../assets/img/project-img/insure-img.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top 50px center ;
+    position: relative;
+    transform: translateX(-50px);
+}
+
+.insure__item:nth-child(1)::after{
+    position: absolute;
+    content: '';
+    width: 350px;
+    height: 1px;
+    background-color: #33323D;
+    bottom: -80px;
+    left: 87px;
+    opacity: 0.15;
+
+}
+
+
+.insure__item:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    .item__inner{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .insure__title{
+        font-size: 40px;
+        line-height: 42px;
+        color: #33323D;
+        letter-spacing: -0.36px;
+        font-weight: 700;
+        font-family:  'Ibarra Real Nova';
+        margin-bottom: 28px;
+    }
+    .insure__text{
+        width: 350px;
+        height: 150px; 
+        margin-bottom: 24px;
+        font-size: 16px;
+        line-height: 30px;
+        color: #33323D;
+    }
+
+    .insure__btn{
+        padding: 17px 35px;
+        background-color: transparent;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        border-color: #33323D;
+        color: #33323D;
+        transition: all ease .8s;
+        &:hover{
+            background-color: #33323D;
+            border-color: #33323D;
+            box-shadow: 0px 0px 8px 4px rgba(160, 160, 160, 0.716);
+            color: white;
+        }
+    }
+}
+.insure__item:nth-child(2)::after{
+    position: absolute;
+    content: '';
+    width: 350px;
+    height: 1px;
+    opacity: 0.15;
+    background-color: #33323D;
+    bottom: 0;
+}
+

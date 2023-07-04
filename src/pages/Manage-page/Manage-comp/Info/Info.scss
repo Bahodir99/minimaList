@@ -145,7 +145,6 @@
 .img__box--list{
     width: 600px;
     height: 832px;
-    background-color: red;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -156,5 +155,18 @@
     width: 600px;
     height: 400px;
     background: #FFEFEC;
+
+}
+.img__box--first{
+    background: url(../../../../assets/img/manage/brings-1.png);
+    width: 100%;
+    height: 100%;
+    transform: translateX(-10px);
 }
 
+.img__box--second{
+    width: 100%;
+    height: 100%;
+    background:  url(../../../../assets/img/manage/manage-product.png) no-repeat, url(../../../../assets/img/manage/manage-soft.png) no-repeat ,  url(../../../../assets/img/manage/bring-footer.png) no-repeat ; 
+    background-position: top 0px left -34px, top 0 right 182px , top 0 right 10px;  
+}
